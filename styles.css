@@ -2,10 +2,6 @@
   #style.css
 \*-----------------------------------*/
 
-/**
- * copyright 2022 codewithsadee
- */
-
 /*-----------------------------------*\
   #CUSTOM PROPERTY
 \*-----------------------------------*/
@@ -45,7 +41,6 @@
   --fs-5: 0.875rem;
   --fs-6: 0.813rem;
   --fs-7: 0.75rem;
-
   --fw-500: 500;
   --fw-600: 600;
   --fw-700: 700;
@@ -179,12 +174,12 @@ a {
 
 .btn {
   position: relative;
-  background: var(--orange-soda);
+  background: #017407;
   color: var(--white);
   font-family: var(--ff-poppins);
   font-size: var(--fs-5);
   text-transform: var(--text-transform, capitalize);
-  border: 1px solid var(--orange-soda);
+  border: 1px solid #017407;
   padding: 10px 20px;
   z-index: 1;
 }
@@ -216,7 +211,7 @@ a {
 }
 
 .section-subtitle {
-  color: var(--orange-soda);
+  color: #017407;
   font-size: var(--fs-5);
   font-weight: var(--fw-600);
   padding: 5px 20px;
@@ -248,7 +243,7 @@ a {
 }
 
 .card-badge.orange {
-  background: var(--orange-soda);
+  background: #017407;
 }
 
 .has-scrollbar {
@@ -325,11 +320,11 @@ a {
 }
 
 .header-top-link:is(:hover, :focus) {
-  color: var(--orange-soda);
+  color: #017407;
 }
 
 .header-top-link ion-icon {
-  color: var(--orange-soda);
+  color: #017407;
   font-size: 15px;
   --ionicon-stroke-width: 60px;
 }
@@ -354,7 +349,7 @@ a {
 }
 
 .header-top-btn {
-  background: var(--orange-soda);
+  background: #017407;
   color: var(--white);
   font-size: var(--fs-6);
   font-weight: var(--fw-700);
@@ -362,7 +357,7 @@ a {
 }
 
 .header-top-btn:is(:hover, :focus) {
-  --orange-soda: hsl(7, 72%, 46%);
+  --orange-soda: #017407;
 }
 
 .header-bottom {
@@ -388,6 +383,8 @@ a {
   visibility: hidden;
   transition: 0.15s ease-in;
 }
+
+/* li */
 
 .navbar.active {
   visibility: visible;
@@ -415,7 +412,7 @@ a {
 }
 
 .navbar-link {
-  color: #fff;
+  color: #000;
   font-size: var(--fs-5);
   font-weight: var(--fw-600);
   text-transform: uppercase;
@@ -423,7 +420,7 @@ a {
 }
 
 .navbar-link:is(:hover, :focus) {
-  color: var(--orange-soda);
+  color: #017407;
 }
 
 .overlay {
@@ -454,6 +451,8 @@ a {
   z-index: 3;
 }
 
+/* .service-card */
+
 .header-bottom-actions-btn ion-icon {
   color: hsl(0, 0%, 10%);
   font-size: 20px;
@@ -464,7 +463,7 @@ a {
 }
 
 .header-bottom-actions-btn:is(:hover, :focus) ion-icon {
-  color: var(--orange-soda);
+  color: #017407;
 }
 
 .header-bottom-actions-btn span {
@@ -496,7 +495,7 @@ a {
 }
 
 .hero-subtitle ion-icon {
-  color: var(--orange-soda);
+  color: #017407;
 }
 
 .hero-subtitle span {
@@ -582,7 +581,7 @@ a {
 }
 
 .about-item-icon ion-icon {
-  color: var(--orange-soda);
+  color: #017407;
   font-size: 18px;
 }
 
@@ -598,7 +597,7 @@ a {
   font-weight: var(--fw-500);
   line-height: 1.8;
   padding: 20px 25px;
-  border-left: 4px solid var(--orange-soda);
+  border-left: 4px solid #017407;
   margin-bottom: 40px;
 }
 
@@ -642,7 +641,7 @@ a {
 }
 
 .service-card .card-title > a:is(:hover, :focus) {
-  color: var(--orange-soda);
+  color: #017407;
 }
 
 .service-card .card-text {
@@ -663,8 +662,10 @@ a {
 }
 
 .service-card:is(:hover, :focus) .card-link {
-  color: var(--orange-soda);
+  color: #017407;
 }
+
+/* .card-price */
 
 .service-card::after {
   content: '';
@@ -673,7 +674,7 @@ a {
   left: 0;
   width: 0;
   height: 4px;
-  background: var(--orange-soda);
+  background: #017407;
   transition: var(--transition);
 }
 
@@ -753,16 +754,16 @@ a {
 }
 
 .banner-actions-btn:is(:hover, :focus) {
-  color: var(--orange-soda);
+  color: #017407;
 }
 
 .property-card .card-content {
   padding: 30px 15px 15px;
   border-bottom: 1px solid hsla(0, 0%, 0%, 0.1);
 }
-
+/* .features-card */
 .card-price {
-  color: var(--orange-soda);
+  color: #017407;
   font-family: var(--ff-poppins);
   font-size: var(--fs-5);
   margin-bottom: 5px;
@@ -779,7 +780,7 @@ a {
 }
 
 .property-card .card-title > a:is(:hover, :focus) {
-  color: var(--orange-soda);
+  color: #017407;
 }
 
 .property-card .card-text {
@@ -852,7 +853,7 @@ a {
 }
 
 .author-name > a:is(:hover, :focus) {
-  color: var(--orange-soda);
+  color: #017407;
 }
 
 .author-title {
@@ -877,7 +878,7 @@ a {
 }
 
 .card-footer-actions-btn:is(:hover, :focus) {
-  background: var(--orange-soda);
+  background: #017407;
   color: var(--white);
 }
 
@@ -916,12 +917,12 @@ a {
 }
 
 .features-card:is(:hover, :focus) {
-  background: var(--orange-soda);
+  background: #017407;
 }
 
 .features-card .card-icon {
   background: var(--seashell);
-  color: var(--orange-soda);
+  color: #017407;
   width: 60px;
   height: 60px;
   display: grid;
@@ -965,7 +966,7 @@ a {
 }
 
 .features-card:is(:hover, :focus) .card-btn {
-  color: var(--orange-soda);
+  color: #017407;
 }
 
 /*-----------------------------------*\
@@ -1017,11 +1018,11 @@ a {
 }
 
 .blog-card :is(.card-meta-link, .publish-date) ion-icon {
-  color: var(--orange-soda);
+  color: #017407;
 }
 
 .blog-card .card-meta-link:is(:hover, :focus) {
-  color: var(--orange-soda);
+  color: #017407;
 }
 
 .blog-title {
@@ -1030,7 +1031,7 @@ a {
 }
 
 .blog-card .blog-title:is(:hover, :focus) {
-  color: var(--orange-soda);
+  color: #017407;
 }
 
 .blog-content-bottom {
@@ -1043,7 +1044,7 @@ a {
 }
 
 .blog-card .read-more-btn {
-  color: var(--orange-soda);
+  color: #017407;
   font-size: var(--fs-7);
   font-weight: var(--fw-600);
   text-transform: uppercase;
@@ -1062,7 +1063,7 @@ a {
 }
 
 .cta-card {
-  background: var(--orange-soda);
+  background: #017407;
   padding: 50px 25px;
   box-shadow: var(--shadow-2);
 }
@@ -1166,7 +1167,7 @@ a {
 }
 
 .contact-link:is(:hover, :focus) span {
-  color: var(--orange-soda);
+  color: #017407;
 }
 
 .social-list {
@@ -1192,7 +1193,7 @@ a {
 }
 
 .footer-link:is(:hover, :focus) {
-  color: var(--orange-soda);
+  color: #017407;
 }
 
 .footer-bottom {
@@ -1210,7 +1211,7 @@ a {
 }
 
 .copyright a:is(:hover, :focus) {
-  color: var(--orange-soda);
+  color: #017407;
 }
 
 /*-----------------------------------*\
@@ -1526,6 +1527,8 @@ a {
   .about-banner > img {
     width: 100%;
   }
+
+  /* navbar-list */
 
   /**
    * SERVICE
