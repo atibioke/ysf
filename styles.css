@@ -141,6 +141,8 @@ body {
   padding-inline: 15px;
 }
 
+/* hear-text */
+
 button,
 a {
   transition: var(--transition);
@@ -215,7 +217,7 @@ a {
   font-size: var(--fs-5);
   font-weight: var(--fw-600);
   padding: 5px 20px;
-  background: hsla(9, 100%, 62%, 0.1);
+  background: rgba(212, 246, 174, 0.5);
   width: max-content;
   border-radius: 50px;
   margin-inline: auto;
@@ -513,8 +515,10 @@ a {
   font-size: var(--fs-5);
   line-height: 1.8;
   padding-left: 15px;
-  border-left: 1px solid;
+  /* border-left: 1px solid; */
   margin-bottom: 30px;
+  border-left: 4px solid #017407;
+  background: rgba(212, 246, 174, 0.5);
 }
 
 /*-----------------------------------*\
@@ -572,7 +576,7 @@ a {
 }
 
 .about-item-icon {
-  background: var(--misty-rose);
+  background: rgba(212, 246, 174, 0.5);
   height: 45px;
   min-width: 45px;
   border-radius: 50%;
@@ -591,13 +595,14 @@ a {
 }
 
 .about .callout {
-  background: hsla(7, 78%, 53%, 0.05);
+  border-left: 4px solid #017407;
+  background: rgba(212, 246, 174, 0.5);
   color: var(--cadet);
   font-size: var(--fs-5);
   font-weight: var(--fw-500);
   line-height: 1.8;
   padding: 20px 25px;
-  border-left: 4px solid #017407;
+
   margin-bottom: 40px;
 }
 
@@ -921,7 +926,7 @@ a {
 }
 
 .features-card .card-icon {
-  background: var(--seashell);
+  background: rgba(212, 246, 174, 0.5);
   color: #017407;
   width: 60px;
   height: 60px;
